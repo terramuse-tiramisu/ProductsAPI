@@ -1,0 +1,19 @@
+{
+  "name": "productsapi",
+  "version": "1.0.0",
+  "description": "A restful API for products.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terramuse-tiramisu/ProductsAPI.git"
+  },
+  "author": "Albert Chua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terramuse-tiramisu/ProductsAPI/issues"
+  },
+  "homepage": "https://github.com/terramuse-tiramisu/ProductsAPI#readme"
+}
