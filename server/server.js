@@ -29,7 +29,13 @@ app.get('/products', (req, res) => {
     console.log(err);
     res.json('error in get request')
   })
-  ;
+});
+
+app.get('/products/:productid', (req, res) => {
+
+
+    res.json('error in get request')
+
 });
 
 

@@ -9,7 +9,7 @@ exports.retrieve = function(page = 1, count = 5) {
   // .exec();
 
   return Product.aggregate()
-    .project('id name slogan description category default_price related_products')
+    .project('-_id id name slogan description category default_price related_products')
     .sort('id')
     .skip((page - 1) * count)
     .limit(count)
