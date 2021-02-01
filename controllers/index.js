@@ -1,7 +1,7 @@
 var {Style, Product, Feature, Photo, Skus} = require("../DB/NoSQLSchema");
 
 
-exports.retrieve = function(page = 1, count = 5) {
+exports.retrieve = (page = 1, count = 5) => {
 
 //NOTE NEED TO USE .skip!!!!!!!! for pages
 
@@ -15,3 +15,9 @@ exports.retrieve = function(page = 1, count = 5) {
     .limit(count)
     .exec();
 };
+
+exports.retrieveOneById = (productid) => {
+  return Product.findOne({id: productid})
+    .select('-_id id name slogan description category default_price features')
+    .exec();
+}

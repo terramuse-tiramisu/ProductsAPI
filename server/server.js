@@ -32,10 +32,17 @@ app.get('/products', (req, res) => {
 });
 
 app.get('/products/:productid', (req, res) => {
+  // console.log(req.params)
+  if (req.params.productid) {
+    productid = req.params.productid;
+  }
 
-
+  return controllers.retrieveOneById(productid)
+  .then((result) => {res.json(result)})
+  .catch(err => {
+    console.log(err);
     res.json('error in get request')
-
+  })
 });
 
 
