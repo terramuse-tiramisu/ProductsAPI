@@ -19,8 +19,8 @@ app.get('/', (req, res) => {
 
 app.get('/products', (req, res) => {
   // console.log('these are your params:', urlParser.parse(req.url,true).query);
-  let page = parseInt(urlParser.parse(req.url,true).query.page)
-  let count = parseInt(urlParser.parse(req.url,true).query.count)
+  let page = parseInt(urlParser.parse(req.url,true).query.page) || 1
+  let count = parseInt(urlParser.parse(req.url,true).query.count) ||5
 
   console.log(page, count, 'page and count')
   //TODO: need to make some query limiters/error handling

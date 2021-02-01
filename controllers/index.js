@@ -1,9 +1,8 @@
 var {Style, Product, Feature, Photo, Skus} = require("../DB/NoSQLSchema");
 
 
-exports.retrieve = (page = 1, count = 5) => {
+exports.retrieve = (page, count) => {
 
-//NOTE NEED TO USE .skip!!!!!!!! for pages
   console.log(page, count)
   // return Product.find({}).sort('id').limit(count)
   // .exec();
@@ -12,7 +11,7 @@ exports.retrieve = (page = 1, count = 5) => {
     .sort('id')
     .skip((page - 1) * count)
     .limit(count)
-    .project('-_id id name slogan description category default_price related')
+    .project('-_id id name slogan description category default_price')
     .exec();
 };
 
@@ -23,9 +22,10 @@ exports.retrieveOneById = (productid) => {
 }
 
 exports.retrieveStyles = (productid) => {
-  return Style.find({id: productid})
-    .select('-_id id name slogan description category default_price features')
-    .sort('id')
+  console.log(productid, 'productid', typeof productid)
+  return Style.aggregate()
+  .match({productId: parseInt(productid)})
+  .project('-_id id name sale_price original_price default_style')
     .exec();
 }
 
