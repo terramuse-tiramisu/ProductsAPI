@@ -93,7 +93,7 @@ db.aggregate(
   ]
 )
 
-// the below command changes the data by: adding a features array into it...in slightly the wrong way.
+// the below command changes the data by: adding a features array into it.
 db.products.aggregate([
   {
     '$lookup': {
@@ -132,7 +132,25 @@ db.products.aggregate([
 ])
 
 
-///
+/// converts default price to string in products api:
+
+db.products.aggregate([
+  {
+      '$addFields': {
+          'default_price': {
+              '$convert': {
+                  'input': '$default_price',
+                  'to': 'string',
+                  'onError': 'Could not convert to type integer.'
+              }
+          }
+      }
+  },
+  {
+    '$out': 'products'
+  }
+])
+
 
 
 

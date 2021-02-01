@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 
 const productSchema = new mongoose.Schema({
-  product_id: String,
+  id: Number,
   name: String,
   slogan: String,
   description: String,
   category: String,
-  default_price: String,
+  default_price: Number,
   product_style: {type: mongoose.Schema.Types.ObjectId, ref: 'Style'},
   related_products: [Number]
 
@@ -40,7 +40,7 @@ const skusSchema = new mongoose.Schema({
 
   exports.Style = mongoose.model('Style', styleSchema);
   exports.Product = mongoose.model('Product', productSchema);
-  exports.Feature = mongoose.model('Product', featureSchema);
-  exports.Photo = mongoose.model('Product', photoSchema);
-  exports.Skus = mongoose.model('Product', skuSchema);
+  exports.Feature = mongoose.model('Feature', featureSchema);
+  exports.Photo = mongoose.model('Photo', photoSchema);
+  exports.Skus = mongoose.model('Skus', skusSchema);
 
