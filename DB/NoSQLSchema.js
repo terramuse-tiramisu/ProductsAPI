@@ -6,10 +6,9 @@ const productSchema = new mongoose.Schema({
   slogan: String,
   description: String,
   category: String,
-  default_price: Number,
+  default_price: String,
   product_style: {type: mongoose.Schema.Types.ObjectId, ref: 'Style'},
-  related_products: [Number]
-
+  related: [Number]
 })
 
 const styleSchema = new mongoose.Schema({
