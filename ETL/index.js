@@ -68,6 +68,7 @@ db.[name].aggregate([
 const db = require("../DB");
 
 
+/*   START OF THE LOADING PROCESS:
 
 
 db.[name of collection].aggregate([
@@ -182,3 +183,4 @@ db.orders.aggregate([
 
 
 
+*/

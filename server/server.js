@@ -70,7 +70,7 @@ app.get('/products/:productid/related', (req, res) => {
   return controllers.retrieveRelated(productid)
   .then((result) => {
     console.log(result)
-    res.send(result[0].related)})
+    res.send(result[0].related.sort())})
   .catch(err => {
     console.log(err);
     res.json('error in get request to related')
