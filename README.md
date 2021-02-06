@@ -100,7 +100,7 @@ Some code from an awesome readme...going to format it later
 
 ## Overview 
 
-The purpose of SDC was to build and deploy a functional, scalable backend; building upon our rudimentary concepts of server routing and database creation and basic querying.
+The purpose of SDC was to build and deploy a functional, scalable backend; building upon the rudimentary concepts of server routing, database creation, and basic querying that I learned during my time at Hack Reactor.
 
 ### New technologies and concepts:
 - MongoDB aggregation pipeline and seeding a database using ETL from csv files.
