@@ -1,4 +1,4 @@
-# ProductsAPI
+# System Design Capstone (SDC) -- ProductsAPI
 
 ## Introduction
 
@@ -22,6 +22,7 @@ For this project, we used the following languages and frameworks in our implemen
 - MongoDB
 - Mongoose ODM
 - Docker
+- AWS EC2
 
 ## ** NOTE THIS README IS UNDER CONSTRUCTION**
 
@@ -99,6 +100,14 @@ Some code from an awesome readme...going to format it later
 
 ## Overview 
 
+The purpose of SDC was to build and deploy a functional, scalable backend; building upon our rudimentary concepts of server routing and database creation and basic querying.
+
+### New technologies and concepts:
+- MongoDB aggregation pipeline and seeding a database using ETL from csv files.
+    - working with large amounts of data (>26 million individual documents per csv)
+- Using Docker and containerization of services 
+- Deployment using Docker and EC2
+- Scalability - load balancing and server optimization
 
 
 ## Installation
