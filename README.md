@@ -17,11 +17,11 @@ The functionality of the API is outlined [here](https://gist.github.com/trentgoi
 
 ##Technologies
 For this project, we used the following languages and frameworks in our implementation:
--Node.js
--Express
--MongoDB
--Mongoose ODM
--Docker
+- Node.js
+- Express
+- MongoDB
+- Mongoose ODM
+- Docker
 
 ## ** NOTE THIS README IS UNDER CONSTRUCTION**
 
