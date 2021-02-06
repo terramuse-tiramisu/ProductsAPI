@@ -102,7 +102,7 @@ Some code from an awesome readme...going to format it later
 
 The purpose of SDC was to build and deploy a functional, scalable backend; building upon the rudimentary concepts of server routing, database creation, and basic querying that I learned during my time at Hack Reactor.
 
-### New technologies and concepts:
+### New technologies and key takeaways:
 - MongoDB aggregation pipeline and seeding a database using ETL from csv files.
     - Working with large amounts of data (>26 million individual documents per csv)
     - Normalizing vs. denormalizing data
@@ -112,6 +112,8 @@ The purpose of SDC was to build and deploy a functional, scalable backend; build
     - Deployment using Docker and EC2
     - Scalability - load balancing, server optimization, Docker-compose
 - Testing and iterative design implementations
+- Effectively adapting to new technologies through self-study and collaboration among team members 
+- Docker complexity - Docker is a great tool, but very complex and relatively difficult to start using.
 
 ## Installation
 
