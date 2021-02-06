@@ -2,7 +2,16 @@
 
 ## Introduction
 
-Team Terramuse - composed of the astounding team of 3 developers- **<a href="https://github.com/akolatch" target="_blank">Aharon</a>, [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site. 
+Over the course of 12 days during our time at Hack Reactor, cohort 34, Team Terramuse - composed of the astounding team of 3 developers- **<a href="https://github.com/akolatch" target="_blank">Aharon</a>, [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site. 
+
+Each of us was assigned to one piece of the API:
+1. Products - Albert
+2. Reviews - Zach
+3. Q & A - Aharon
+
+and can be found in our [team repository](https://github.com/terramuse-tiramisu).
+
+The functionality of the API is outlined [here](https://gist.github.com/trentgoing/d69849d6c16b82d279ffc4ecd127f49f#file-api_overview-md).
 
 ***This is the Products API.***
 
@@ -10,6 +19,7 @@ Team Terramuse - composed of the astounding team of 3 developers- **<a href="htt
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Installation](#installation)
     - [TEST](#this-is-a-test)
     - [Link to another link](#another-link)
@@ -78,6 +88,9 @@ Some code from an awesome readme...going to format it later
    to add one — start with [Travis CI].
 
 </details>
+
+## Overview 
+
 
 
 ## Installation
