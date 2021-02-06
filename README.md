@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Team Terramuse - composed of the astounding team of 3 developers- **[Aharon](https://github.com/akolatch), [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site. 
+Team Terramuse - composed of the astounding team of 3 developers- **<a href="https://github.com/akolatch" target="_blank">Aharon</a>, [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site. 
 
 ***This is the Products API.***
 
