@@ -15,7 +15,9 @@ Team Terramuse - composed of the astounding team of 3 developers- **<a href="htt
     - [Link to another link](#another-link)
 
 
-<details><summary><b>Show instructions</b></summary>
+<details><summary><b> dont press me yet. incomplete</b></summary>
+
+Some code from an awesome readme...going to format it later
 
 1. Install the preset:
 
