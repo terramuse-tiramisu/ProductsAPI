@@ -13,8 +13,7 @@ and can be found in our [team repository](https://github.com/terramuse-tiramisu)
 
 The functionality of the API is outlined [here](https://gist.github.com/trentgoing/d69849d6c16b82d279ffc4ecd127f49f#file-api_overview-md).
 
-# ProductsAPI
-Albert Chua
+# ProductsAPI - Albert's part
 
 ## Technologies
 For this project, I chose the following languages and frameworks in my implementation:
