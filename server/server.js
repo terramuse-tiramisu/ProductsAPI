@@ -10,7 +10,7 @@ const urlParser = require('url');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use(morgan('tiny'));
 
 ///routes
 app.get('/', (req, res) => {
@@ -49,11 +49,17 @@ app.get('/products/:productid', (req, res) => {
 app.get('/products/:productid/styles', (req, res) => {
   // console.log(req.params)
   if (req.params.productid) {
-    productid = req.params.productid;
+    var productid = req.params.productid;
   }
 
   return controllers.retrieveStyles(productid)
-  .then((result) => {res.json(result)})
+  .then((result) => {
+    let modifiedResult = {
+      "product_id": productid,
+      "results": result
+    }
+    res.json(modifiedResult)
+  })
   .catch(err => {
     console.log(err);
     res.json('error in get request to styles')

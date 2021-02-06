@@ -22,7 +22,7 @@ exports.retrieveOneById = (productid) => {
 }
 
 exports.retrieveStyles = (productid) => {
-  console.log(productid, 'productid', typeof productid)
+  // console.log(productid, 'productid', typeof productid)
   return Style.aggregate()
   .match({productId: parseInt(productid)})
   .project('-_id id name sale_price original_price default_style')
