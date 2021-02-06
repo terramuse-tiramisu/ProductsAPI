@@ -1,5 +1,13 @@
 # System Design Capstone (SDC)
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Overview](#overview)
+- [Installation](#installation)
+    - [TEST](#this-is-a-test)
+    - [Link to another link](#another-link)
+
+
 ## Introduction
 
 Over the course of 12 days during our time at Hack Reactor, cohort 34, Team Terramuse - composed of the astounding team of 3 developers- **<a href="https://github.com/akolatch" target="_blank">Aharon</a>, [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site. 
@@ -25,14 +33,6 @@ For this project, I chose the following languages and frameworks in my implement
 - Amazon Elastic Compute Cloud (EC2)
 
 ## ** NOTE THIS README IS UNDER CONSTRUCTION**
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Installation](#installation)
-    - [TEST](#this-is-a-test)
-    - [Link to another link](#another-link)
-
 
 <details><summary><b> dont press me yet. incomplete</b></summary>
 
