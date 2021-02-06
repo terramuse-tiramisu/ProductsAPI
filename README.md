@@ -22,7 +22,7 @@ For this project, we used the following languages and frameworks in our implemen
 - MongoDB
 - Mongoose ODM
 - Docker
-- AWS EC2
+- Amazon Elastic Compute Cloud (EC2)
 
 ## ** NOTE THIS README IS UNDER CONSTRUCTION**
 
@@ -104,11 +104,14 @@ The purpose of SDC was to build and deploy a functional, scalable backend; build
 
 ### New technologies and concepts:
 - MongoDB aggregation pipeline and seeding a database using ETL from csv files.
-    - working with large amounts of data (>26 million individual documents per csv)
-- Using Docker and containerization of services 
-- Deployment using Docker and EC2
-- Scalability - load balancing and server optimization
-
+    - Working with large amounts of data (>26 million individual documents per csv)
+    - Normalizing vs. denormalizing data
+    - Query optimization
+- System design optimizations and security concerns
+    - Using Docker and containerization of services 
+    - Deployment using Docker and EC2
+    - Scalability - load balancing, server optimization, Docker-compose
+- Testing and iterative design implementations
 
 ## Installation
 
