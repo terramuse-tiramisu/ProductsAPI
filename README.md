@@ -1,4 +1,4 @@
-# System Design Capstone (SDC) -- ProductsAPI
+# System Design Capstone (SDC)
 
 ## Introduction
 
@@ -13,10 +13,11 @@ and can be found in our [team repository](https://github.com/terramuse-tiramisu)
 
 The functionality of the API is outlined [here](https://gist.github.com/trentgoing/d69849d6c16b82d279ffc4ecd127f49f#file-api_overview-md).
 
-***This is the Products API.***
+# ProductsAPI
+Albert Chua
 
 ## Technologies
-For this project, we used the following languages and frameworks in our implementation:
+For this project, I chose the following languages and frameworks in my implementation:
 - Node.js
 - Express
 - MongoDB
