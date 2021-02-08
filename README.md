@@ -1,4 +1,4 @@
-# System Design Capstone (SDC)
+# Atelier API - SDC
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Over the course of 12 days during our time at Hack Reactor, cohort 34, Team Terramuse - composed of the astounding team of 3 developers- **<a href="https://github.com/akolatch" target="_blank">Aharon</a>, [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site. 
+Over the course of 12 days during our time at Hack Reactor, cohort 34, Team Terramuse - composed of the astounding team of 3 developers- **<a href="https://github.com/akolatch" target="_blank">Aharon</a>, [Albert](https://github.com/blargeth), and [Zach](https://github.com/zrealberg)**- was tasked to create a working backend of each of their respective parts to an API of an E-commerce site as part of our System Design Capstone (SDC).
 
 Each of us was assigned to one piece of the API:
 1. Products - Albert
